@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#D8BFD8</color>
+    <color name="list">#CD96CD</color>
+    <color name="list_item">#8B7B8B</color>
+    
+    <color name="background_start_color">#FFFFFF</color>
+    <color name="background_end_color">#F5F5F5</color>
+    
+    <color name="list_start_color">#63B8FF</color>
+    <color name="list_end_color">#B0E2FF</color>
+    <color name="text">#8B668B</color>
+    <string name="select_customer">Select Customer</string>
+    <color name="navy">#000080</color>
+    <color name="white">#ffffff</color>
+    
+</resources>

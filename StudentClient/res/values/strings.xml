@@ -1,0 +1,172 @@
+
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Bluetooth Attendence</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="tittle_connecting">connecting</string>
+    <string name="chose_attendence">Select</string>
+    <string-array name="attendence_option">
+        <item >Present</item>
+        <item >Absent</item>
+    </string-array>
+    <string-array name="sem">
+        <item >Select Sem</item>
+        <item >1st Sem</item>
+        <item >3rd Sem</item>
+        <item >4th Sem</item>
+        <item >5th Sem</item>
+        <item >6th Sem</item>
+        <item >7th Sem</item>
+        <item >8th Sem</item>
+    </string-array>
+    <string-array name="subject">
+        <item >Select Subject</item>
+        <item >DS</item>
+        <item >DIP</item>
+        <item >JAVA</item>
+        <item >Computer Orgnization</item>
+        <item >Operating System</item>
+        <item >IT Infrastructure</item>
+        <item >Algorithm</item>
+        <item >Software Engineering</item>
+        <item >Compilar</item>
+        <item >C Programing</item>
+        <item >Computer Graphics</item>
+    </string-array>
+    <string-array name="branch">
+        <item >Select Branch</item>
+         <item >CS</item>
+        <item >IT</item>
+        <item >CE</item>
+        <item >ME</item>
+        <item >EC</item>
+        <item >EE</item>
+        <item >TC</item>
+       
+    </string-array>
+    <string-array name="dates">
+        <item >01</item>
+        <item >02</item>
+        <item >03</item>
+        <item >04</item>
+        <item >05</item>
+        <item >06</item>
+        <item >07</item>
+        <item >08</item>
+        <item >09</item>
+        <item >10</item>
+        <item >11</item>
+        <item >12</item>
+        <item >13</item>
+        <item >14</item>
+        <item >15</item>
+        <item >16</item>
+        <item >17</item>
+        <item >18</item>
+        <item >19</item>
+        <item >20</item>
+        <item >21</item>
+        <item >22</item>
+        <item >23</item>
+        <item >24</item>
+        <item >25</item>
+        <item >26</item>
+        <item >27</item>
+        <item >28</item>
+        <item >29</item>
+        <item >30</item>
+        <item >31</item>
+    </string-array>
+    <string-array name="months">
+        <item >Jan</item>
+         <item >Feb</item>
+          <item >Mar</item>
+           <item >Apr</item>
+            <item >May</item>
+             <item >Jun</item>
+              <item >Jul</item>
+               <item >Aug</item>
+                <item >Sep</item>
+                 <item >Oct</item>
+                  <item >Nov</item>
+                   <item >Dep</item>
+                   
+    </string-array>
+    <string-array name="que_one">
+        <item >What is Android?</item>
+        <item >1- Computer Operating System</item>
+        <item >2- Mobile Operating System</item>
+        <item >3- Application Software</item>
+        <item >4- Mobile Application</item>
+    </string-array>
+    <string-array name="que_second">
+        <item >Parent class of Activity?</item>
+        <item >a)Object</item>
+        <item > b)Context</item>
+        <item > c)ActivityGroup</item>
+        <item > d)ContextThemeWrapper</item>
+    </string-array>
+    <string-array name="que_third">
+        <item >Range of Bluetooth in Android?</item>
+        <item >a)5m</item>
+        <item >b)8m</item>
+        <item >c)9m</item>
+        <item > d)10m</item>
+    </string-array>
+    <string-array name="que_fourth">
+         <item >Android usses Database ?</item>
+        <item >a)SQLiteDatabase</item>
+        <item >bCONTEXT)MYSQL</item>
+        <item >c)MSSQL</item>
+        <item >d)SystemDatabase</item>
+       
+    </string-array>
+    <string-array name="que_five">
+        <item >Imidiate base class for activity and services?</item>
+        <item >a)CONTEXT</item>
+        <item >b) APPLICATIONCONTEXT</item>
+        <item >c)CONTEXTAPP</item>
+        <item >d)ONCREATE</item>
+    </string-array>
+    <string-array name="que_six">
+        <item >The Full Form of SDK?</item>
+        <item >a)Smart Development Kit</item>
+        <item >b)system Development kit</item>
+        <item >c)Software Development Kit</item>
+        <item >d)Supper Development kit</item>
+    </string-array>
+ 
+</resources>

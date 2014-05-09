@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_end_color"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Date"
+        android:inputType="number" >
+ 
+        <requestFocus />
+ 
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtMonthA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Month" />
+
+    <Spinner
+        android:id="@+id/spnrBranch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/branch" />
+
+    <Spinner
+        android:id="@+id/spnrSem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/sem" />
+
+    <Spinner
+        android:id="@+id/spnrSubject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/subject"/>
+        
+ 
+</LinearLayout>

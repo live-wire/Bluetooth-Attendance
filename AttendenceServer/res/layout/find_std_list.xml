@@ -1,0 +1,88 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/list_end_color"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtDateF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Date" 
+                android:inputType="number">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtMonthF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="enter Month"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/spnrBranchF"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" 
+                android:entries="@array/branch"/>
+
+            <Spinner
+                android:id="@+id/spnrSemF"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:entries="@array/sem" />
+
+            <Spinner
+                android:id="@+id/spnrSubjectF"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:entries="@array/subject" />
+
+            <EditText
+                android:id="@+id/edtStdIdF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                  android:inputType="number"
+                android:hint="Enter Student Id" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Total No. of Attendence"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtStdAttens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+    </LinearLayout>
